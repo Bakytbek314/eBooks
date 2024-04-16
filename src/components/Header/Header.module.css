@@ -1,0 +1,52 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0;
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  margin-right: 50px;
+}
+
+.logo h1 {
+  cursor: pointer;
+  color: #fff;
+}
+
+.nav {
+  display: flex;
+  gap: 40px;
+}
+
+.search input {
+  padding: 6px 20px;
+}
+.search button {
+  padding: 6px 6px;
+  cursor: pointer;
+}
+
+.icons {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+.icons div i {
+  cursor: pointer;
+}
+
+.optionList {
+  background: #fff;
+  width: 150px;
+  border-radius: 3px;
+  padding: 3px 0;
+  position: absolute;
+  right: 200px;
+  margin-top: 5px;
+}
+.optionList li {
+  list-style: none;
+  border: 0.5px solid black;
+  border-radius: 3px;
+  margin-bottom: 3px;
+  cursor: pointer;
+}

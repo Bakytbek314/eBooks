@@ -1,0 +1,14 @@
+.filter {
+    padding-bottom: 15px;
+    border-bottom: 1px solid black;
+}
+.filter h2 {
+  text-align: center;
+  margin: 18px 0 0 0;
+}
+
+.filter_content {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
