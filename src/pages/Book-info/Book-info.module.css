@@ -1,0 +1,40 @@
+.book_info {
+  display: flex;
+  padding: 32px;
+  gap: 30px;
+  height: 100%;
+}
+
+.info {
+  width: 70%;
+}
+
+.info h2 {
+  margin-bottom: 20px;
+}
+.info :nth-child(4) {
+  margin-top: 30px;
+}
+.reading {
+  width: 100px;
+  height: 30px;
+  margin-top: 10px;
+  border: none;
+  background: #e16a00;
+  font-family: Montserrat;
+  font-size: 12px;
+  font-weight: 900;
+  line-height: 23.54px;
+  text-align: left;
+  color: #fff;
+  text-align: center;
+  cursor: pointer;
+}
+
+.photo {
+  width: 30%;
+  padding: 25px;
+}
+.photo img {
+  width: 100%;
+}

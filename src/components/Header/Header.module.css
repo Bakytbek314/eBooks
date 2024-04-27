@@ -9,7 +9,7 @@
 
 .logo h1 {
   cursor: pointer;
-  color: #fff;
+  color: #4d2900;
 }
 
 .nav {
@@ -17,12 +17,20 @@
   gap: 40px;
 }
 
-.search input {
-  padding: 6px 20px;
+.search {
+  position: relative;
 }
-.search button {
-  padding: 6px 6px;
-  cursor: pointer;
+.search input {
+  width: 200px;
+  height: 25px;
+  padding-left: 18px;
+  border: none;
+  border-bottom: 1px solid black;
+  background: none;
+}
+.search span {
+  position: absolute;
+  top: 3px;
 }
 
 .icons {
@@ -30,7 +38,7 @@
   align-items: center;
   gap: 40px;
 }
-.icons div i {
+.icons div img {
   cursor: pointer;
 }
 

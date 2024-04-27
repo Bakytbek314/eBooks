@@ -3,9 +3,9 @@ import { Route, Routes } from 'react-router-dom';
 import { useDispatch } from 'react-redux';
 
 import Home from '../home/Home';
-import Favourites from '../../components/Favourites/Favourites';
-import BookInfo from '../../components/Book-info/Book-info';
-import Filter from '../../components/Filter/Filter';
+import Favourites from '../Favourites/Favourites';
+import BookInfo from '../Book-info/Book-info';
+import Filter from '../Filter/Filter';
 import { getPopularBooks, getProgrammingBooks, getFilter} from '../../toolkit/slice/EbooksSlice';
 
 const ComRoutes = () => {

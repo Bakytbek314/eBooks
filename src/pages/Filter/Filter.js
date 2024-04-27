@@ -3,8 +3,8 @@ import { useSelector, useDispatch } from 'react-redux';
 import { useNavigate } from 'react-router-dom';
 
 import s from "./Filter.module.css";
-import List from '../List/List';
-import BooksList from '../Books-list/BooksList';
+import List from '../../components/List/List';
+import BooksList from '../../components/Books-list/BooksList';
 import { favouriteBooks } from '../../toolkit/slice/EbooksSlice';
 
 const Filter = () => {

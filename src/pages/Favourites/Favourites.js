@@ -3,8 +3,8 @@ import { useNavigate } from 'react-router-dom';
 import { useSelector } from 'react-redux';
 
 import s from "./Favourites.module.css";
-import List from '../List/List';
-import BooksList from '../Books-list/BooksList';
+import List from '../../components/List/List';
+import BooksList from '../../components/Books-list/BooksList';
 
 const Favourites = () => {
 
